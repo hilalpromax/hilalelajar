@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+#nilai-counter {
+    font-size: 5em; /* Membuat angka sangat besar */
+    font-weight: bold;
+    margin: 20px 0;
+    color: #3498db; /* Warna biru untuk nilai */
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+#tombol-tambah {
+    background-color: #2ecc71; /* Hijau */
+    color: white;
+}
+
+#tombol-tambah:hover {
+    background-color: #27ae60;
+}
+
+#tombol-reset {
+    background-color: #e74c3c; /* Merah */
+    color: white;
+}
+
+#tombol-reset:hover {
+    background-color: #c0392b;
+}
